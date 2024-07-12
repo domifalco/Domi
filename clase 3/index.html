@@ -3,15 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Sitio Web Standard</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/340ea30906.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <h1>Sitio Web Standard</h1>
-    <LI>Inicio</LI>
-    <Li>Acerca de</Li>
-    <li>Servicios</li>
-    <li>Contacto</li>
+<header>
+<div class="nav-container">
+    <h1>Sitio Web Standard <i class="fa-regular fa-thumbs-up" style="color: #f1efe9;"></i></h1>
+    <nav>
+        <ul>
+            <li><a href="#Home">Inicio</a></li>
+            <li><a href="#About">Acerca de</a></li>
+            <li><a href="#Services">Servicios</a></li>
+            <li><a href="#Contact">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+</header>
+<main>
+    <section id="Home">
+        <div>
+            <h2>Bienvenidos a nuestro sitio web</h2>
+            <p> Este es un sitio web tipo estandar con un estilo simple y prolijo. Está diseñado para ser didáctico y fácil de entender.</p>
+        </div>
+    </section>
+    <section id="About">
+        <div>
+            <h2>Acerca de</h2>
+            <p> Nos especializamos en brindar soluciones web eficientes y efectivas para nuestros clientes.</p>
+        </div>
+    </section>
+    <section id="Services">
+        <div>
+            <h2>Servicios</h2>
+            <UL>
+                <LI>Desarrollo Web</LI>
+                <LI>Diseño Responsivo</LI>
+                <LI>Consultoría Técnica</LI>
+            </UL>
+
+        </div>
+    </section>
+    <section class="pictures">
+        <div class="images">
+             <img class="img1" src="https://img.freepik.com/vector-premium/programador-que-trabaja-computadoras-codificadores-o-programadores-que-escriben-programas-pagina-inicio-cursos-ti-web-html-c_199064-1767.jpg" alt="">
+            <img class="img1" src="https://us.123rf.com/450wm/designcircle/designcircle2309/designcircle230900247/212092828-ilustraci%C3%B3n-de-stock-de-ilustraci%C3%B3n-de-vector-de-dise%C3%B1o-de-estilo-plano-de-programaci%C3%B3n.jpg?ver=6" alt="">  
+            <img class="img2" src="https://websandstores.com/wp-content/uploads/2017/07/trucos-mejorar-velocidad-dise%C3%B1o-web.jpg" alt="">
+        </div>
+             
+     
+    </section>
+    <section id="Contact"> 
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre"> 
+
+            <label for="email">Email:</label>
+            <input type="email" name="email"
+            placeholder="Email">
+
+            <label for="message">Deje aqui su comentario:</label>
+            <TEXTarea name="message">
+            </TEXTarea>
+
+            <div class="button-container">
+                <button type="submit">Enviar</button>
+                <button class="button-delete" type="reset">Borrar</button>
+            </div>
+
     
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <p>Creado por Dominica Falco</p>
+    </div>
+</footer>
 </body>
 </html>
