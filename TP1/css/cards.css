@@ -44,6 +44,7 @@ height: 180px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+        margin: 0px 10px 80px 10px;
     }
 
 }
